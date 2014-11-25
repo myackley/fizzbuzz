@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	//establish for loop from 1 to 100
 	for (var i = 1; i < 101; i++) {
 		if (i%3==0 && i%5==0) {
@@ -15,7 +14,6 @@ $(document).ready(function() {
 			//if not divisible by 3 or 5 list the number
 			$("body").append(i + "\n");
 		}
-	//end for loop
+	//end for loop 
 	}
-
 });
